@@ -16,10 +16,3 @@ int main() {
 
     return 0;
 }
-void affiche_tab(int tab[], int taille) {
-    int i;
-    for(i = 0; i < taille; i++) {
-        printf("%d ", tab[i]);
-    }
-    printf("\n");
-}
