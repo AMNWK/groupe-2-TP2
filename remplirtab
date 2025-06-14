@@ -1,0 +1,18 @@
+int main() {
+    int tab[10];
+    int i;
+
+    printf("Entrez 10 entiers :\n");
+    for(i = 0; i < 10; i++) {
+        printf("tab[%d] = ", i);
+        scanf("%d", &tab[i]);
+    }
+
+    printf("Le tableau contient :\n");
+    for(i = 0; i < 10; i++) {
+        printf("%d ", tab[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
